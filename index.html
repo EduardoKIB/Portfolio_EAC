@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfólio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Atividades</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Eduardo</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiencias</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Atividades</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contatos</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./Portfolio 2024/assets/profile-pic.png" alt="Foto de perfil " />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Portfólio</p>
+        <h1 class="title">Eduardo Canhola</h1>
+        <p class="section__text__p2">3A</p>
+        <div class="btn-container">
+          <form method="get" action="Curriculo.pdf">
+          <button
+            class="btn btn-color-2"
+            
+          >
+            Meu Curriculo
+          </button>
+          <form action=""></form>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contate me
+          </button>
+        </div>
+        
+      </div>
+    </section>
+    <section id="about">
+      
+      <h1 class="title">Sobre mim</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              
+              <h3>Meus estudos</h3> 
+              <br>
+                <button class="PPE" onclick="location.href='./Portfolio 2024/Plano_de_estudos.html'">PPE</button>
+                <button class="Certificados" onclick="location.href='./Portfolio 2024/certificados.html'">Certificados</button>
+                <button class="Fotos" onclick="location.href='./Portfolio 2024/fotos.html'">Fotos</button>
+                
+            </div>
+            <div class="details-container">
+             
+              <h3>Educação</h3>
+              <p>Ensino Fundamental<br />Ensino Médio Integrado – Técnico em Desenvolvimento de Sistemas</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Meu nome é Eduardo Aldrighi Canhola, nascido em Curitiba, tenho 16 anos e estou cursando o segundo ano do ensino médio, na escola SESI SENAI.
+ Tenho como objetivo desenvolver novas habilidades que virão a me ajudar na vida e no mercado de trabalho. Sou criativo e busco usar essa habilidade para resolver problemas.
+ Sobre mim meus principais interesses são: História e Geografia, meu hobbies são escutar música, assistir filmes e séries. Tenho o sonho de viajar e conhecer mais sobre o mundo em que vivemos. 
+
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore meus</p>
+      <h1 class="title">Conhecimentos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desenvolvimento Frontend </h2>
+            <div class="article-container">
+              <article>
+                <img 
+                  src="./Portfolio 2024/assets/HTML_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./Portfolio 2024/assets/CSS_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img 
+                  src="./Portfolio 2024/assets/JS_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desenvolvimento Backend </h2>
+            <div class="article-container">
+              
+              <article>
+                <img 
+                  src="./Portfolio 2024/assets/python_logo.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  
+                </div>
+              </article>
+              <article>
+                
+              
+                <img 
+                  src="./Portfolio 2024/assets/GitHub_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Minhas</p>
+      <h1 class="title">Atividades</h1><br>
+      <div class="slideshow-container">
+        <div class="slide">
+          <a href="./Portfolio 2024/materias/matematica.html"><img src="./Portfolio 2024/assets/Capa_Mat.png" alt="Slide 1"></a>
+          
+      </div>
+      <div class="slide">
+        <a href="./Portfolio 2024/materias/natureza.html"><img src="./Portfolio 2024/assets/Capa_Nat.png" alt="Slide 2"></a>
+        
+      </div>
+        <div class="slide">
+            <a href="./Portfolio 2024/materias/humanas.html"><img src="./Portfolio 2024/assets/Capa_Hum.png" alt="Slide 3"></a>
+            
+        </div>
+
+        <div class="slide">
+            <a href="./Portfolio 2024/materias/linguagens.html"><img src="./Portfolio 2024/assets/Capa_ling.png" alt="Slide 4"></a>
+            
+        </div>
+        <div class="slide">
+          <a href="./Portfolio 2024/materias/desenvolvimento.html"><img src="./Portfolio 2024/assets/Dese_cap.png" alt="Slide 5"></a>
+          
+        </div>
+      
+     
+
+       
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    
+    </section>
+    <section id="contact">
+      <button onclick="location.href='./materias/linguagens.html'"></button>
+      <h1 class="title">Meu contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./Portfolio 2024/assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">e.aldrighi.c@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./Portfolio 2024/assets/GitHub_icon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/EduardoKIB">Github</a></p>
+          
+        </div>
+        
+      </div>
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Atividades</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="https://www.canva.com/design/DAFxkmGrMj0/OjiUQtqdK0gxTq0FePswLw/view?utm_content=DAFxkmGrMj0&utm_campaign=designshare&utm_medium=link&utm_source=viewer">Portfólios anteriores</a></li>
+          </ul>
+        </div>
+      </nav>   
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
